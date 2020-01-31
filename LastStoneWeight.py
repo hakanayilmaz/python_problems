@@ -7,7 +7,6 @@ class Solution(object):
         
         tmp = stones
         
-        
         while len(tmp) >= 2:
             tmp.sort()
             if tmp[-1] == tmp[-2]:
